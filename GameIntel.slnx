@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GameIntel.Core/GameIntel.Core.csproj" />
+    <Project Path="src/GameIntel.McpServer/GameIntel.McpServer.csproj" />
+    <Project Path="src/GameIntel.Providers.Dota/GameIntel.Providers.Dota.csproj" />
+    <Project Path="src/GameIntel.Providers.Poe2/GameIntel.Providers.Poe2.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GameIntel.Tests/GameIntel.Tests.csproj" />
+  </Folder>
+</Solution>

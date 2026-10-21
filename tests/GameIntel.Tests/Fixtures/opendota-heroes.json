@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "npc_dota_hero_antimage", "localized_name": "Anti-Mage", "primary_attr": "agi", "attack_type": "Melee", "roles": ["Carry", "Escape", "Nuker"], "legs": 2 },
+  { "id": 2, "name": "npc_dota_hero_axe", "localized_name": "Axe", "primary_attr": "str", "attack_type": "Melee", "roles": ["Initiator", "Durable", "Disabler", "Carry"], "legs": 2 },
+  { "id": 8, "name": "npc_dota_hero_juggernaut", "localized_name": "Juggernaut", "primary_attr": "agi", "attack_type": "Melee", "roles": ["Carry", "Pusher", "Escape"], "legs": 2 },
+  { "id": 11, "name": "npc_dota_hero_nevermore", "localized_name": "Shadow Fiend", "primary_attr": "agi", "attack_type": "Ranged", "roles": ["Carry", "Nuker"], "legs": 0 },
+  { "id": 27, "name": "npc_dota_hero_shadow_shaman", "localized_name": "Shadow Shaman", "primary_attr": "int", "attack_type": "Ranged", "roles": ["Support", "Pusher", "Disabler", "Nuker", "Initiator"], "legs": 2 },
+  { "id": 44, "name": "npc_dota_hero_phantom_assassin", "localized_name": "Phantom Assassin", "primary_attr": "agi", "attack_type": "Melee", "roles": ["Carry", "Escape"], "legs": 2 },
+  { "id": 53, "name": "npc_dota_hero_furion", "localized_name": "Nature's Prophet", "primary_attr": "int", "attack_type": "Ranged", "roles": ["Carry", "Pusher", "Escape", "Nuker"], "legs": 2 },
+  { "id": 120, "name": "npc_dota_hero_pangolier", "localized_name": "Pangolier", "primary_attr": "all", "attack_type": "Melee", "roles": ["Carry", "Nuker", "Disabler", "Durable", "Escape", "Initiator"], "legs": 2 }
+]

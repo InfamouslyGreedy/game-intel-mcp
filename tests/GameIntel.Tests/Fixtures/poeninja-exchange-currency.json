@@ -1,0 +1,22 @@
+{
+  "core": {
+    "items": [
+      { "id": "exalted", "name": "Exalted Orb", "image": "/img/exalted.png", "category": "Currency" },
+      { "id": "divine", "name": "Divine Orb", "image": "/img/divine.png", "category": "Currency" },
+      { "id": "chaos", "name": "Chaos Orb", "image": "/img/chaos.png", "category": "Currency" },
+      { "id": "annul", "name": "Orb of Annulment", "image": "/img/annul.png", "category": "Currency" },
+      { "id": "mirror", "name": "Mirror of Kalandra", "image": "/img/mirror.png", "category": "Currency" }
+    ],
+    "rates": { "divine": 0.0025, "chaos": 0.11 },
+    "primary": "exalted",
+    "secondary": "divine"
+  },
+  "lines": [
+    { "id": "divine", "primaryValue": 400, "volumePrimaryValue": 950000, "maxVolumeCurrency": "exalted", "maxVolumeRate": 400, "sparkline": { "totalChange": 4.2, "data": [0, 1.1, 2.5, 4.2] } },
+    { "id": "chaos", "primaryValue": 9.1, "volumePrimaryValue": 210000, "maxVolumeCurrency": "exalted", "maxVolumeRate": 9.1, "sparkline": { "totalChange": -12.5, "data": [0, -3, -8, -12.5] } },
+    { "id": "annul", "primaryValue": "52.5", "volumePrimaryValue": 4, "maxVolumeCurrency": "exalted", "maxVolumeRate": 52.5, "sparkline": { "totalChange": 80.0, "data": [0, 80] } },
+    { "id": "mirror", "primaryValue": 260000, "volumePrimaryValue": 600, "maxVolumeCurrency": "divine", "maxVolumeRate": 650, "sparkline": { "totalChange": 1.0, "data": [] } },
+    { "id": "greater-jewellers-orb", "primaryValue": 0.75, "volumePrimaryValue": 3000, "maxVolumeCurrency": "exalted", "maxVolumeRate": 0.75 },
+    { "primaryValue": 1 }
+  ]
+}

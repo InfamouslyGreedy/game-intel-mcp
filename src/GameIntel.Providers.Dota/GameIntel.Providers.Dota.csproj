@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>GameIntel.Providers.Dota</RootNamespace>
+    <Description>Dota 2 provider backed by the OpenDota public API.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <ProjectReference Include="..\GameIntel.Core\GameIntel.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GameIntel.Tests" />
+  </ItemGroup>
+
+</Project>

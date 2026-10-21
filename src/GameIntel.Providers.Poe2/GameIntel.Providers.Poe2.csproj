@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>GameIntel.Providers.Poe2</RootNamespace>
+    <Description>Path of Exile 2 economy provider backed by poe.ninja's public economy endpoints.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <ProjectReference Include="..\GameIntel.Core\GameIntel.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GameIntel.Tests" />
+  </ItemGroup>
+
+</Project>

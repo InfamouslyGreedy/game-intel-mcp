@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>GameIntel.McpServer</RootNamespace>
+    <AssemblyName>game-intel-mcp</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <Description>MCP server exposing Dota 2 and Path of Exile 2 data as tools for AI agents. Runs over stdio or Streamable HTTP.</Description>
+    <UserSecretsId>game-intel-mcp</UserSecretsId>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol" />
+    <PackageReference Include="ModelContextProtocol.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameIntel.Core\GameIntel.Core.csproj" />
+    <ProjectReference Include="..\GameIntel.Providers.Dota\GameIntel.Providers.Dota.csproj" />
+    <ProjectReference Include="..\GameIntel.Providers.Poe2\GameIntel.Providers.Poe2.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GameIntel.Tests" />
+  </ItemGroup>
+
+</Project>

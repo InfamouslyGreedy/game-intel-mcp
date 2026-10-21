@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>GameIntel.Core</RootNamespace>
+    <Description>Provider abstractions and resilient HTTP plumbing shared by every game provider.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Caching, DI, logging, IHttpClientFactory and System.Threading.RateLimiting all ship in the ASP.NET Core shared framework. -->
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GameIntel.Tests" />
+  </ItemGroup>
+
+</Project>
